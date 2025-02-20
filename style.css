@@ -1,0 +1,65 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --cyan:  #AEDEE0;
+    --dcyan: #313e3e;
+    --salmon: #f1d2d2;
+    --dsalmon: #3a3535;
+}
+
+
+*::selection{
+    background-color: #EF9D71;
+}
+
+body[theme="black"]{
+    background-color: var(--black);
+}
+body[theme="black"] .section{
+    color: var(--white);
+}
+
+body[theme="cyan"]{
+    background-color: var(--cyan);
+}
+body[theme="cyan"] .section{
+    color: var(--dcyan) ;
+}
+
+
+body[theme="salmon"]{
+    background-color: var(--salmon);
+}
+body[theme="salmon"] .section{
+    color: var(--dsalmon);
+}
+
+body[theme="white"]{
+    background-color: var(--white);
+}
+body[theme="white"] .section{
+    color: var(--black);
+}
+
+@font-face {
+    font-family: Machina;
+    src: url(Fonts/Machina.ttf);
+}
+@font-face {
+    font-family: Satoshi;
+    src: url(Fonts/Satoshi.ttf);
+}
+@font-face {
+    font-family: Machina-light;
+    src: url(Fonts/Machina-light.ttf);
+}
+
+.fontMachina{
+ font-family: Machina;
+}
+.font-light{
+ font-family: Machina-light;
+}
+.fontSatoshi{
+    font-family: Satoshi;
+}
