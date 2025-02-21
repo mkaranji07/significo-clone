@@ -1,9 +1,9 @@
 :root{
-    --black: #000;
-    --white: #fff;
+    --dark: #000;
+    --light: #fff;
     --cyan:  #AEDEE0;
     --dcyan: #313e3e;
-    --salmon: #f1d2d2;
+    --salmon: #EF9D70;
     --dsalmon: #3a3535;
 }
 
@@ -12,10 +12,10 @@
     background-color: #EF9D71;
 }
 
-body[theme="black"]{
+body[theme="dark"]{
     background-color: var(--black);
 }
-body[theme="black"] .section{
+body[theme="dark"] .section{
     color: var(--white);
 }
 
@@ -34,31 +34,31 @@ body[theme="salmon"] .section{
     color: var(--dsalmon);
 }
 
-body[theme="white"]{
+body[theme="light"]{
     background-color: var(--white);
 }
-body[theme="white"] .section{
+body[theme="light"] .section{
     color: var(--black);
 }
 
 @font-face {
     font-family: Machina;
-    src: url(Fonts/Machina.ttf);
+    src: url(Assets/Machina.ttf);
 }
 @font-face {
     font-family: Satoshi;
-    src: url(Fonts/Satoshi.ttf);
+    src: url(Assets/Satoshi.ttf);
 }
 @font-face {
     font-family: Machina-light;
-    src: url(Fonts/Machina-light.ttf);
+    src: url(Assets/Machina-light.ttf);
 }
 
 .fontMachina{
  font-family: Machina;
 }
-.font-light{
- font-family: Machina-light;
+.font-light{ 
+ font-family: Machina-light; 
 }
 .fontSatoshi{
     font-family: Satoshi;
