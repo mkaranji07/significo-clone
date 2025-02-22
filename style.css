@@ -7,16 +7,15 @@
     --dsalmon: #3a3535;
 }
 
-
 *::selection{
     background-color: #EF9D71;
 }
 
 body[theme="dark"]{
-    background-color: var(--black);
+    background-color: var(--dark);
 }
 body[theme="dark"] .section{
-    color: var(--white);
+    color: var(--light);
 }
 
 body[theme="cyan"]{
@@ -35,10 +34,10 @@ body[theme="salmon"] .section{
 }
 
 body[theme="light"]{
-    background-color: var(--white);
+    background-color: var(--light);
 }
 body[theme="light"] .section{
-    color: var(--black);
+    color: var(--dark);
 }
 
 @font-face {
@@ -62,4 +61,10 @@ body[theme="light"] .section{
 }
 .fontSatoshi{
     font-family: Satoshi;
+}
+
+/* Clip path */
+
+.bg-vid{
+    clip-path: circle(var(--clip) at 50% 50%);
 }
