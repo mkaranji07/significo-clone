@@ -11,13 +11,14 @@
 
 <body theme="dark">
     <div class="main w-full">
-        <div class="home section w-full h-[200vh] relative">
+        <div data-color="light" class="home section w-full h-[200vh] relative">
             <div class="w-full sticky top-0 left-0">
                 <div class="btmtxt absolute z-[4] bottom-[7%] left-[2%] w-50">
                     <h1>We build big ideas. Software. Apps. Tools. For real people. Real lives.</h1>
                 </div>
-                <div style="--clip: 100%" class="bg-vid  z-[3] w-full h-screen absolute top-0 left-0 overflow-hidden">
-                    <video autoplay loop muted class="absolute  w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                <div style="--clip: 100%" class="bg-vid z-[3] w-full h-screen absolute top-0 left-0 overflow-hidden">
+                    <video autoplay loop muted
+                        class="absolute  w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                         src="https://cdn.significo.com/videos/our-story-video.mp4"></video>
                 </div>
                 <div class="marqueescontainer w-full h-screen relative overflow-hidden">
@@ -209,7 +210,8 @@
                 </div>
             </div>
         </div>
-        <div class="craft section w-full flex gap-10 justify-between items-start py-10 px-8 relative">
+        <div data-color="cyan"
+            class="craft section w-full flex gap-10 justify-between mt-40 items-start py-10 px-15 relative">
             <div class="ltext w-[37%] sticky top-0 left-0 ">
                 <p class="text-xl leading-8 fontSatoshi">Significo is a leading health software creator founded on the
                     belief that technology can transform healthcare to put people first. Whether they are employees,
@@ -222,19 +224,39 @@
                 </div>
             </div>
             <div class="cards w-1/2">
-                <h1 class="text-7xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aperiam reiciendis
-                    ipsum, enim inventore laudantium soluta, sapiente tenetur minus quis repellat, nostrum aspernatur.
-                    Ratione eius explicabo assumenda facilis voluptates nobis pariatur sint, repellat quas asperiores,
-                    at, libero cum cumque non. Consectetur dolorum quo voluptas iure quis odio repudiandae, saepe culpa
-                    magni nulla minima quos eveniet magnam dolores velit cumque, blanditiis fugit eos vel ipsum
-                    molestias? Eum delectus voluptatum dicta nulla tenetur necessitatibus nesciunt earum. Provident
-                    ullam ipsum, sunt laudantium nisi eum sit aut consectetur et inventore explicabo assumenda maiores
-                    ut dignissimos sed velit sint ex blanditiis. Voluptates quia commodi inventore labore culpa numquam
-                    nesciunt, quasi quas quisquam, autem maiores eos sunt modi nulla atque dolores? Dolor dicta sed,
-                    totam quod ipsa optio </h1>
+                <div class="card w-[550px] h-[250px] border-1 border-black relative py-5 px-12 mb-10">
+                    <h3 class="text-2xl font-semibold mb-5">Driven by Purpose</h3>
+                    <p class="text-[1.2rem]">We believe technology can dramatically
+                        improve the experience of managing
+                        health, and — when crafted with empathy,
+                        intention, and expertise — impact lives at
+                        scale.</p>
+                </div>
+                <div class="card w-[550px] h-[250px] border-1 border-black relative py-5 px-12 mb-10">
+                    <h3 class="text-2xl font-semibold mb-5">Custom Products</h3>
+                    <p class="text-[1.2rem]">We build mobile and web-based apps,
+                        platforms, and infrastructure fitted to your
+                        needs. We have an open solutions
+                        framework, so we work to fit your business,
+                        not the other way around.</p>
+                </div>
+                <div class="card w-[550px] h-[250px] border-1 border-black relative py-5 px-12 mb-10">
+                    <h3 class="text-2xl font-semibold mb-5">Partnerships</h3>
+                    <p class="text-[1.2rem]">We work with payers, providers, and
+                        pharma to help internal teams through
+                        ground-up builds, product optimizations,
+                        and streamlining data/analytics.</p>
+                </div>
+                <div class="card w-[550px] h-[250px] border-1 border-black relative py-5 px-12 mb-10">
+                    <h3 class="text-2xl font-semibold mb-5">Security & Compliance</h3>
+                    <p class="text-[1.2rem]">Not just technology experts. Health
+                        experts. We are able to navigate both
+                        stringent regulatory environments and the
+                        complexities of technology and data.</p>
+                </div>
             </div>
         </div>
-        <div class="real section w-full">
+        <div data-color="salmon" class="real section w-full">
             <div class="cont h-[400vh] relative">
                 <div class="slides overflow-hidden w-full h-[100vh] gap-20 sticky top-0 left-0 flex">
                     <div class="slide w-full h-screen flex-shrink-0 flex items-center justify-center">
@@ -289,7 +311,8 @@
                         <img class="w-60 absolute bottom-0 left-1/3 -translate-x-1/2" src="/Assets/png-2.png" alt="">
                         <img class="w-35 absolute right-0 top-1/2 -translate-x-2/1" src="/Assets/png3.png" alt="">
                         <div class="w-[55%] fontMachina text-center relative">
-                            <h3 class="absolute top-0 left-0 w-1/3 font-semibold leading-7 text-left -translate-y-1/4 -translate-x-1/3 text-[1.2rem]">
+                            <h3
+                                class="absolute top-0 left-0 w-1/3 font-semibold leading-7 text-left -translate-y-1/4 -translate-x-1/3 text-[1.2rem]">
                                 Our team is global and diverse, because our individual experiences make us stronger.
                             </h3>
                             <h1 class="font-semibold text-[12rem] leading-none text-white">49%</h1>
@@ -299,7 +322,7 @@
                 </div>
             </div>
         </div>
-        <div class="team section w-full font-light py-20">
+        <div data-color="light" class="team section w-full font-light py-20">
             <h1 class="text-7xl text-center  ">Our Team</h1>
             <div class="list mt-30 w-full px-10">
                 <div class="listelem border-b-1 border-black py-[3.5rem]  relative">
@@ -311,7 +334,9 @@
                         <h3 class="text-2xl font-semibold font-semibold">CEO</h3>
                     </div>
                     <div
-                        class="picture hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden ">
+                        <img class="w-full h-full object-cover"
+                            src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                     </div>
                     <div class="bluelayer z-[2] absolute bottom-0 left-0 w-full bg-blue-500 h-[0%] "></div>
                 </div>
@@ -324,7 +349,10 @@
                         <h3 class="text-2xl font-semibold font-semibold">COO</h3>
                     </div>
                     <div
-                        class="picture hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden ">
+                        <img class="w-full h-full object-cover"
+                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
                     </div>
                     <div class="bluelayer z-[2] absolute bottom-0 left-0 w-full bg-blue-500 h-[0%] "></div>
                 </div>
@@ -337,7 +365,10 @@
                         <h3 class="text-2xl font-semibold font-semibold">Chief Product Offer</h3>
                     </div>
                     <div
-                        class="picture hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover"
+                            src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
                     </div>
                     <div class="bluelayer z-[2] absolute bottom-0 left-0 w-full bg-blue-500 h-[0%] "></div>
                 </div>
@@ -350,7 +381,10 @@
                         <h3 class="text-2xl font-semibold font-semibold">CTO</h3>
                     </div>
                     <div
-                        class="picture hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        <img class="w-full h-full object-cover"
+                            src="https://images.unsplash.com/photo-1596075780750-81249df16d19?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
                     </div>
                     <div class="bluelayer z-[2] absolute bottom-0 left-0 w-full bg-blue-500 h-[0%] "></div>
                 </div>
@@ -363,7 +397,10 @@
                         <h3 class="text-2xl font-semibold font-semibold">Chief Innovation Officer</h3>
                     </div>
                     <div
-                        class="picture hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        <img class="w-full h-full object-cover"
+                            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
                     </div>
                     <div class="bluelayer z-[2] absolute bottom-0 left-0 w-full bg-blue-500 h-[0%] "></div>
                 </div>
@@ -376,49 +413,46 @@
                         <h3 class="text-2xl font-semibold font-semibold">VP of Engineering</h3>
                     </div>
                     <div
-                        class="picture hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[20rem] h-[20rem] rounded-full overflow-hidden bg-sky-600">
+                        <img class="w-full h-full object-cover"
+                            src="https://plus.unsplash.com/premium_photo-1682096252599-e8536cd97d2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
                     </div>
                     <div class="bluelayer z-[2] absolute bottom-0 left-0 w-full bg-blue-500 h-[0%] "></div>
                 </div>
             </div>
         </div>
-        <div class="para w-full  fontSatoshi">
-            <div class="w-[40%]  flex flex-col items-center justify-center ">
-                <p class="text-2xl font-semibold leading-[2.5rem] text-center font-semibold px-10">Working with the Significo team has
-                    been such a pleasure! We took on a significant project to rebuild our entire platform and the team
-                    approached the project with our best interests in mind. They continue to prioritize the end user
-                    experience and offer amazing expertise in all of the areas we lack internally. I would personally be
-                    lost without this team, their ability to problem solve, their openness to feedback and desire to
+        <div data-color="light" class="para section w-full mt-40 fontSatoshi">
+            <div class="w-full flex flex-col items-center justify-center relative ">
+                <p class="textpara text-2xl font-semibold leading-[2.5rem] text-center font-semibold px-10">Working with
+                    the
+                    Significo team has been such a pleasure! We took on a significant project to rebuild our entire
+                    platform
+                    and the team approached the project with our best interests in mind. They continue to prioritize the
+                    end
+                    user experience and offer amazing expertise in all of the areas we lack internally. I would
+                    personally
+                    be lost without this team, their ability to problem solve, their openness to feedback and desire to
                     build the product like it is their own. </p>
                 <div class="pers flex flex-col items-center justify-center mt-10 gap-4">
-                    <div class="image w-[5rem] h-[5rem] rounded-full bg-red-500 overflow-hidden">
-                        <img src="" alt="">
+                    <div class="image w-[5rem] h-[5rem] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                     </div>
                     <h1 class="text-2xl font-semibold font-semibold">Miranda Ernst</h1>
                     <h3>Product Manager @ HealthCheck360</h3>
                 </div>
             </div>
-            <!-- <div class="w-[40%]  flex flex-col items-center justify-center absolute right-[4%] ">
-                <p class="text-2xl font-semibold leading-[2.5rem] text-center font-semibold px-10">Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally. I would personally be lost without this team, their ability to problem solve, their openness to feedback and desire to build the product like it is their own. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus illo enim autem tempora, quidem labore ex, beatae ab pariatur assumenda neque reprehenderit id iste omnis. Ipsam fuga blanditiis quia.</p>
-                <div class="pers flex flex-col items-center justify-center mt-10 gap-4">
-                    <div class="image w-[5rem] h-[5rem] rounded-full bg-red-500 overflow-hidden">
-                        <img src="" alt="">
-                    </div>
-                    <h1 class="text-2xl font-semibold font-semibold">Emek Altun</h1>
-                    <h3>CEO @ Vitaservices</h3>
-                </div>
-            </div> -->
         </div>
-        <div class="meet w-full h-screen px-15 mt-60">
+        <div data-color="dark" class="meet section w-full h-screen px-15 mt-60">
             <div class="text font-light w-[40%] ">
                 <h3 class="">Meet our lively mix of healthcare buffs, tech nerds, and creative sparks. Fancy a chat?
                     Check our travel log and let's rendezvous for some genuine banter and brainstorming. </h3>
                 <h1>Meet Us In The Wild</h1>
             </div>
         </div>
-        <div class="capsules w-full h-screen flex items=start justify-between mt-50 px-15">
+        <div data-color="yolk" class="capsules section w-full h-screen flex items=start justify-between mt-50 px-15">
             <div class="left w-1/3 flex flex-col justify-between h-full py-10 ">
-                <h1 class="text-xl w-62 bg-red-300 font-semibold fontSatoshi leading-[2rem]">Stay up-to-date on the
+                <h1 class="text-xl w-62 font-semibold fontSatoshi leading-[2rem]">Stay up-to-date on the
                     latest healthcare
                     innovations and thought
                     leadership.</h1>
@@ -433,9 +467,12 @@
             </div>
             <!-- width changed -->
             <div class="right w-[58%] h-full gap-14 flex items-center fontMachina">
-                <div class="capsule -rotate-[15deg] rounded-full py-8 px-6 border-1 border-black flex flex-col items-center">
+                <div
+                    class="capsule -rotate-[15deg] rounded-full py-8 px-6 border-1 border-black flex flex-col items-center">
                     <div class="w-80 h-80 rounded-full ">
-                        <img class="w-full h-full object-cover overflow-hidden" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659de46d6b973c1388cf44a6_bold-beginnings-img.webp" alt="">
+                        <img class="w-full h-full object-cover overflow-hidden"
+                            src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659de46d6b973c1388cf44a6_bold-beginnings-img.webp"
+                            alt="">
                     </div>
                     <div class="text text-center mt-18">
                         <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
@@ -446,7 +483,8 @@
                     </div>
                     <button class="bg-purple-400 rounded-full px-4 py-2 mt-15 mb-18">Thought leadership</button>
                 </div>
-                <div class="capsule -rotate-[15deg] rounded-full py-8 px-6 border-1 border-black flex flex-col items-center">
+                <div
+                    class="capsule translate-y-32 -rotate-[15deg] rounded-full py-8 px-6 border-1 border-black flex flex-col items-center">
                     <button class="bg-purple-400 rounded-full px-4 py-2 mt-5 mb-18">Thought leadership</button>
                     <div class="text text-center mb-5">
                         <h3 class="text-3xl font-semibold ">How to Use Digital</h3>
@@ -460,16 +498,23 @@
                         <h4>achieving your organization's goals.</h4>
                     </div>
                     <div class="w-80 h-80 rounded-full ">
-                        <img class="w-full h-full object-cover overflow-hidden" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659de46d6b973c1388cf44a6_bold-beginnings-img.webp" alt="">
+                        <img class="w-full h-full object-cover overflow-hidden"
+                            src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659de46d6b973c1388cf44a6_bold-beginnings-img.webp"
+                            alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
 </body>
 
