@@ -79,3 +79,9 @@ body[theme="yolk"] .section{
 .bg-vid{
     clip-path: circle(var(--clip) at 50% 50%);
 }
+
+.listelem:hover {
+    .bluelayer::after {
+        height: 100%;
+    }
+}

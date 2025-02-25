@@ -116,8 +116,8 @@ function bodyBgAnimation(){
 .forEach(function(e){
     ScrollTrigger.create({
         trigger: e,
-        start: "top 10%",
-        end: "bottom 10%",
+        start: "top 40%",
+        end: "bottom 40%",
         onEnter: function(){
             document.body.setAttribute("theme", e.dataset.color);
         },
